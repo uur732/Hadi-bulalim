@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/Hadi-bulalim/static/css/main.cd104d48.css",
-    "main.js": "/Hadi-bulalim/static/js/main.6d69584e.js",
+    "main.js": "/Hadi-bulalim/static/js/main.8da6ac7b.js",
     "static/js/787.24e5d6c4.chunk.js": "/Hadi-bulalim/static/js/787.24e5d6c4.chunk.js",
     "static/media/hadi-bulalim.png": "/Hadi-bulalim/static/media/hadi-bulalim.db49a7ad5a201c46b2e0.png",
     "index.html": "/Hadi-bulalim/index.html",
     "main.cd104d48.css.map": "/Hadi-bulalim/static/css/main.cd104d48.css.map",
-    "main.6d69584e.js.map": "/Hadi-bulalim/static/js/main.6d69584e.js.map",
+    "main.8da6ac7b.js.map": "/Hadi-bulalim/static/js/main.8da6ac7b.js.map",
     "787.24e5d6c4.chunk.js.map": "/Hadi-bulalim/static/js/787.24e5d6c4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cd104d48.css",
-    "static/js/main.6d69584e.js"
+    "static/js/main.8da6ac7b.js"
   ]
 }
