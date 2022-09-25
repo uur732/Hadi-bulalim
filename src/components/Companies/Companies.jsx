@@ -13,20 +13,17 @@ function Companies(props) {
   return (
     <>
      <Link to={`Details/${companies.id}`}  >
-      <div className="companies mt-14 -ml-20 h-min text-lg grid grid-cols-2
-      2xl:grid-cols-2 xl:grid-cols-2 lg:grid-cols-1 md:grid-cols-1 sm:grid-cols-1 xsm:grid-cols-1
-      2xl:-ml-20  xl:-ml-20 lg:-ml-20 md:-ml-20  sm:ml-0 xsm:ml-0
-      ">
+      <div className="grid grid-cols-2 -ml-20 text-lg companies mt-14 h-min xsm:grid-cols-1 2xsm:grid-cols-1 xsm:place-items-center 2xsm:place-items-center ">
     
-        <div className="companiesView w-60 h-35 mt-2 ml-40 space-y-7 font-serif ">
+        <div className="mt-2 ml-40 font-serif companiesView w-60 h-35 space-y-7 xsm:ml-20 2xsm:ml-20">
           
-          <img src={props.companiesData?.image_url} className="rounded-lg  transition duration-500 hover:scale-125 hover:rounded-lg max-w-60 max-h-60 " />
+          <img src={props.companiesData?.image_url} className="transition duration-500 rounded-lg hover:scale-125 hover:rounded-lg max-w-60 max-h-60 xsm:max-w-40 2xsm:max-w-30" />
           
-          <p className="text-xs font-sans tracking-tighter "> Resmi büyütmek için fareyi sürükleyebilirsiniz </p>
+          <p className="font-sans text-xs tracking-tighter "> Resmi büyütmek için fareyi sürükleyebilirsiniz </p>
         
         </div>
 
-        <div className="companiesİnfo m-4 ml-20 place-items-center space-y-10 font-serif	">
+        <div className="companiesİnfo m-4 ml-20 place-items-center space-y-10 font-serif">
 
           <p>{props.companiesData?.name}</p>
 
@@ -35,7 +32,7 @@ function Companies(props) {
           <p className="flex"> {props.companiesData?.phone} <FaPhoneSquare className="mt-1 ml-8 rounded-3xl" size={25} /> </p>
           
 
-          <div className="companiesRating flex italic	" >
+          <div className="flex italic companiesRating " >
 
             <p> {props.companiesData?.rating} </p>
             <p className="ml-2 p-0.5"> Oy </p>
