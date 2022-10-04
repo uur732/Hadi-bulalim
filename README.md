@@ -1,6 +1,6 @@
 Hello everyone!
 
-I used React on this project. I took into account React-Components folder structure. Also i used Tailwind CSS framework, that's how i did responsive web desing and mobile compatibility. Project uses Yelp Fusion API to make searches on Yelp, Dynamically renders returned businesses, Also displays location on Google Maps on details page.
+I used React on this project. I took into account React-Components folder structure. Also i used Tailwind CSS framework, that's how i did responsive web desing and mobile compatibility. Project uses Yelp Fusion API to make searches on Yelp. Dynamically renders returned businesses. Also displays location on Google Maps on details page.
 
 
 # Getting Started with Create React App
